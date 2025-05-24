@@ -1,25 +1,24 @@
-import React from "react";
+// import React from "react";
 import LandingPage from "./landing-page/landing";
-import DarkMood from "./landing-page/darkMood";
-import { useState } from "react";
-
-
-
-
+// import DarkMood from "./landing-page/darkMood";
+// import { useState } from "react";
 
 function App() {
-const [colorTheme, setTheme] = DarkMood(); 
-const [darkside, setDarkside] = useState(colorTheme === 'light' ? true : false); 
+  // const [colorTheme, setColorTheme] = DarkMood();
+  // const [darkside, setDarkside] = useState(
+  //   colorTheme === "light" ? true : false
+  // );
 
-const toggleDarkMode = () => {
-  newTheme = colorTheme === 'dark' ? 'light' : 'dark';
-  setTheme(newTheme);
-  setDarkside(!darkside);
+  // const toggleDarkMode = () => {
+  //   const newTheme = colorTheme === "dark" ? "light" : "dark";
+  //   setColorTheme(newTheme);
+  //   setDarkside(!darkside);
+  // };
+  // console.log(newTheme)
   return (
     <div>
       <LandingPage />
     </div>
-  )
-}
+  );
 }
 export default App;
