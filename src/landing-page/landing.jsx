@@ -3,6 +3,7 @@ import Hero from "./Hero";
 
 
 function LandingPage() {
+  
 
   return (
     <div className="max-w-[1400px] mx-auto ">
